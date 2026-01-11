@@ -1,0 +1,36 @@
+:root {
+    --PRIMARY_WHITE: #F5F5F5;
+    --PRIMARY_BLUE: #1F2937;
+}
+
+body {
+    margin: 0;
+    background-color: var(--PRIMARY_WHITE);
+    display: flex; 
+    flex-direction: column;
+}
+
+.header {
+    background-color: var(--PRIMARY_BLUE);
+    color: var(--PRIMARY_WHITE);
+    margin: 0;
+    padding: 0px 16px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    font-size: 18px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link, a:visited {
+    color: var(--PRIMARY_WHITE);
+    text-decoration: none;
+}
